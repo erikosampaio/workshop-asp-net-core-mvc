@@ -1,8 +1,10 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Message"] = "This is a Web Application .Net Core to Learning!";
+    ViewData["email"] = "eriko@gmail.com";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-5">@ViewData["Message"]</h1>
+    <p>More information: @ViewData["email"]</p>
+    <p><a href="https://github.com/erikosampaio/workshop-asp-net-core-mvc" target="_blank">Click here to access repository project.</a></p>
 </div>
